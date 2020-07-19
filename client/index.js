@@ -109,7 +109,7 @@ const client = (() => {
         }
 
         const subscribeUser = () => {
-            const appServerPublicKey = "BBjDHF8cFoJznds83RrbZByg-UQCxWTNb9afVNjxjbpIsj2CaJyKDrndm9GwHk9Tbargfzt83gYprv9kl1OvIEU";
+            const appServerPublicKey = "BJmcshoxKr9b55-mYsvRPBmdJHISiArTp7fU88FIKKlUERbfS3m_9UUxwDoLHv0O9GICclyBdUAOj2mTJrGJnuw";
             const publicKeyAsArray = urlB64ToUint8Array(appServerPublicKey)
 
             serviceWorkerRegObj.pushManager.subscribe({
