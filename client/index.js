@@ -26,20 +26,20 @@ const client = (() => {
 
     let count = 0
     const showNotification = () => {
-        const simpleTextNotification = reg => reg.showNotification("My First Notification")
+        const simpleTextNotification = reg => reg.showNotification("Mo's First Notification")
 
         const customizedNotification = reg => {
             const options = {
-                body: 'This is an important body!',
+                body: 'A very important notification!',
                 icon: "imgs/notification.png",
                 tag: "group-1",
                 actions: [
-                    { action: "search", title: "Try Searching!" },
-                    { action: "close", title: "Forget it!" },
+                    { action: "search", title: "Looking for something?" },
+                    { action: "close", title: "Colts" },
                 ],
                 data: {
                     notificationTime: Date.now(),
-                    githubUser: "hhimanshu"
+                    githubUser: "mocycle78"
                 }
             }
             reg.showNotification('Second Notification - ' + count++, options)
