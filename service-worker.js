@@ -7,7 +7,7 @@ self.addEventListener('notificationclick', event => {
           const githubUser = event.notification.data.githubUser;
           clients.openWindow(`https://github.com/${githubUser}`);
     } else if (event.action === "close") {
-        clients.openWindow(`https://rebrand.ly/funny-dog`);
+        clients.openWindow(`https://www.colts.com`);
     }
 
     console.log('notification clicked', event)
